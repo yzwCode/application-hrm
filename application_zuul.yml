@@ -6,7 +6,9 @@ spring:
 zuul:
   routes:
     myManage.serviceId: hrm-management # 服务名
-    myManage.path: /myManage/** # 把myUser打头的所有请求都转发给user-provider
+    myManage.path: /myManage/** # 把myManage打头的所有请求都转发给服务提供者
+    myCourse.serviceId: hrm-course # 服务名
+    myCourse.path: /myCourse/** 
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
 ribbon:
