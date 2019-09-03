@@ -9,6 +9,8 @@ zuul:
     myManage.path: /myManage/** # 把myManage打头的所有请求都转发给服务提供者
     myCourse.serviceId: hrm-course # 服务名
     myCourse.path: /myCourse/** 
+    myFastDfs.serviceId: hrm-fastdfs # 服务名
+    myFastDfs.path: /myFastDfs/** 
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
 ribbon:
