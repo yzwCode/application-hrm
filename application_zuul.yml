@@ -13,6 +13,8 @@ zuul:
     myFastDfs.path: /myFastDfs/** 
     myEs.serviceId: hrm-es # 服务名
     myEs.path: /myEs/** 
+    myRedis.serviceId: hrm-redis # 服务名
+    myRedis.path: /myRedis/*
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
 ribbon:
