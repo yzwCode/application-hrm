@@ -17,6 +17,8 @@ zuul:
     myRedis.path: /myRedis/*
     myPage.serviceId: hrm-page # 服务名
     myPage.path: /myPage/*
+    myPageAgent.serviceId: hrm-page-agent # 服务名
+    myPageAgent.path: /myPageAgent/*
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
 ribbon:
