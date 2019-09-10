@@ -14,11 +14,11 @@ zuul:
     myEs.serviceId: hrm-es # 服务名
     myEs.path: /myEs/** 
     myRedis.serviceId: hrm-redis # 服务名
-    myRedis.path: /myRedis/*
+    myRedis.path: /myRedis/**
     myPage.serviceId: hrm-page # 服务名
-    myPage.path: /myPage/*
+    myPage.path: /myPage/**
     pageAgent.serviceId: hrm-page-agent
-    pageAgent.path: /pageAgent/*
+    pageAgent.path: /pageAgent/**
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀是
 ribbon:
