@@ -10,7 +10,7 @@ zuul:
     myCourse.serviceId: hrm-course # 服务名
     myCourse.path: /myCourse/** 
     myFastDfs.serviceId: hrm-fastdfs # 服务名
-    myFastDfs.path: /myFastDfs/** 
+    myFastDfs.path: /myFastDfs/**  
     myEs.serviceId: hrm-es # 服务名
     myEs.path: /myEs/** 
     myRedis.serviceId: hrm-redis # 服务名
