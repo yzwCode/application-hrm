@@ -19,6 +19,8 @@ zuul:
     myPage.path: /myPage/**
     pageAgent.serviceId: hrm-page-agent
     pageAgent.path: /pageAgent/**
+    myUser.serviceId: hrm-user
+    myUser.path: /myUser/**
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀是
 ribbon:
